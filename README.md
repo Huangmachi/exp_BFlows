@@ -44,7 +44,7 @@ or
 
     $ ./run_experiment.sh 8 5.0 3 60
 
-The first parameter '4' means execute the experiment in a 'K=4' FatTree network; the second parameter '2.0' means the total CPUs allocated to the hosts; the third parameter '1' means each host launches one Iperf TCP flows, the last parameter '60' means the traffic will last for 60 seconds. It will takes you about 30 hours for the 'K=8' experiment, and about 90 minutes for the 'K=4' experiment.
+The first parameter '4' means execute the experiment in a 'K=4' FatTree network; the second parameter '2.0' means the total CPUs allocated to the hosts; the third parameter '1' means each host launches one Iperf TCP flows, the last parameter '60' means the traffic will last for 60 seconds. It will takes you about 48 hours for the 'K=4' experiment.
 
 
 ### Author
