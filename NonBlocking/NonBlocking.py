@@ -182,7 +182,7 @@ def traffic_generation(net, topo, flows_peers):
 	os.system('killall bwm-ng')
 	os.system('killall iperf')
 
-def run_experiment(pod, ip="172.18.232.60", port=6653, bw_h2c=10):
+def run_experiment(pod,ip="127.0.0.1", port=6633, bw_h2c=10):
 	"""
 		Firstly, start up Mininet;
 		secondly, generate traffics and test the performance of the network.

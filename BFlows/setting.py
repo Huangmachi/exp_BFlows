@@ -24,7 +24,10 @@ DISCOVERY_PERIOD = 10   # For discovering topology.
 
 MONITOR_PERIOD = 2   # For monitoring traffic.
 
-TOSHOW = False	   # For showing statistics information in terminal.
+TOSHOW_topo = True	   # For showing network topology in terminal
+TOSHOW_stat = True	   # For showing statistics in terminal
+TOSHOW_flow_stat = True	   # For showing flow statistics in terminal
+TOSHOW_port_stat = False	   # For showing port statistics in terminal
 
 enable_Flow_Entry_L4Port = False   # For including L4 port in the installing flow entries or not.
 

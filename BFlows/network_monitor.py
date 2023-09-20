@@ -442,7 +442,7 @@ class NetworkMonitor(app_manager.RyuApp):
 		'''
 			Show statistics information.
 		'''
-		if setting.TOSHOW is False:
+		if setting.TOSHOW_port_stat is False:
 			return
 
 		bodys = self.stats['port']
